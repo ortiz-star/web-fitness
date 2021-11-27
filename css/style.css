@@ -588,6 +588,64 @@ section {
   color: #f00;
 }
 
+.blogs {
+  background: #112240;
+  margin-bottom: 7rem;
+}
+
+.blogs:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blogs .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blogs .content {
+  padding: 2rem;
+}
+
+.blogs .content .link {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.blogs .content .link a {
+  color: #f00;
+}
+
+.blogs .content .link a:hover {
+  color: #fff;
+}
+
+.blogs .content .link span {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.blogs .content h3 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.blogs .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -656,9 +714,7 @@ section {
 
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
-    background: linear-gradient(130deg, #112240 93%, transparent 90%);
-    padding: 2rem 3rem;
+    font-size: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
